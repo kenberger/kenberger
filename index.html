@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ken Berger | Engineering Executive & Technical Principal</title>
+    <!-- Import Modern Executive Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Structured Data (JSON-LD) for Google Knowledge Graph & AI Crawlers -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Ken Berger",
+      "url": "https://www.linkedin.com/in/kenberger/",
+      "jobTitle": "Engineering Executive & Technical Principal",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Lorem Labs"
+      },
+      "knowsAbout": [
+        "Software Architecture",
+        "Distributed Systems",
+        "Artificial Intelligence Infrastructure",
+        "Blockchain Architecture",
+        "Engineering Leadership",
+        "Venture Capital Advisory"
+      ],
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Union Square Ventures"
+        }
+      ]
+    }
+    </script>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(180deg, #f8fafc 0%, #e2e8f0 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+        }
+
+        .container {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: #ffffff;
+            color: #0f172a;
+            max-width: 800px;
+            width: 100%;
+            margin: 2rem auto;
+            padding: 3.5rem 1.75rem;
+            box-sizing: border-box;
+            line-height: 1.6;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+        }
+
+        header {
+            margin-bottom: 2.5rem;
+            border-bottom: 1px solid #cbd5e1;
+            padding-bottom: 2rem;
+        }
+
+        h1 {
+            font-size: 2.75rem;
+            font-weight: 700;
+            margin: 0 0 0.5rem 0;
+            letter-spacing: -0.03em;
+            color: #0f172a;
+        }
+
+        .title-sub {
+            color: #0284c7;
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin: 0;
+            letter-spacing: -0.01em;
+        }
+
+        .section {
+            margin-bottom: 2.75rem;
+            text-align: left;
+        }
+
+        h2 {
+            font-size: 0.9rem;
+            color: #0284c7;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            margin-bottom: 1.25rem;
+            font-weight: 700;
+            text-align: center;
+        }
+
+        p {
+            color: #475569;
+            font-size: 1.05rem;
+            margin-bottom: 1.25rem;
+        }
+
+        p strong {
+            color: #0f172a;
+        }
+
+        .highlight-box {
+            background-color: #f8fafc;
+            border-top: 3px solid #0284c7;
+            border-bottom: 1px solid #e2e8f0;
+            padding: 1.5rem 1.75rem;
+            border-radius: 8px;
+            margin: 0 auto 1.5rem auto;
+            box-shadow: 0 4px 12px rgba(15, 23, 42, 0.05);
+            text-align: left;
+        }
+
+        .highlight-box p {
+            margin: 0;
+            color: #0f172a;
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        /* Modern Light Client Cards */
+        .client-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            gap: 1.25rem;
+            margin-top: 1.25rem;
+        }
+
+        .client-card {
+            background-color: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-top: 3px solid #0284c7;
+            padding: 1.5rem 1.25rem;
+            border-radius: 8px;
+            transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04);
+        }
+
+        .client-card:hover {
+            transform: translateY(-3px);
+            border-color: #0284c7;
+            box-shadow: 0 12px 20px -5px rgba(2, 132, 199, 0.15);
+        }
+
+        .company-logo {
+            height: 36px;
+            width: auto;
+            margin-bottom: 0.75rem;
+        }
+
+        /* Cropping Wrapper adjusted to fit 100% of the flag icon without clipping */
+        .boa-crop {
+            width: 72px;
+            height: 36px;
+            overflow: hidden;
+            position: relative;
+            margin-bottom: 0.75rem;
+        }
+
+        .boa-crop img {
+            height: 100%;
+            width: auto;
+            position: absolute;
+            right: 0;
+            top: 0;
+            max-width: none;
+        }
+
+        .client-card h3 {
+            margin: 0 0 0.35rem 0;
+            font-size: 1.15rem;
+            font-weight: 600;
+            color: #0f172a;
+        }
+
+        .client-card p {
+            margin: 0;
+            font-size: 0.875rem;
+            color: #64748b;
+        }
+
+        .pills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.6rem;
+            margin-top: 1rem;
+        }
+
+        .pill {
+            background-color: #f8fafc;
+            border: 1px solid #cbd5e1;
+            color: #334155;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            font-size: 0.875rem;
+            font-weight: 500;
+            transition: all 0.2s ease;
+            box-shadow: 0 1px 3px rgba(15, 23, 42, 0.03);
+        }
+
+        .pill:hover {
+            border-color: #0284c7;
+            color: #0284c7;
+        }
+
+        .links {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #ffffff;
+            color: #0f172a;
+            border: 1px solid #0284c7;
+            padding: 0.8rem 1.6rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: all 0.2s ease;
+            cursor: pointer;
+            box-shadow: 0 2px 6px rgba(2, 132, 199, 0.1);
+        }
+
+        .btn:hover {
+            background-color: #0284c7;
+            color: #ffffff;
+            box-shadow: 0 6px 16px rgba(2, 132, 199, 0.25);
+        }
+
+        footer {
+            margin-top: 4.5rem;
+            padding-top: 1.75rem;
+            border-top: 1px solid #cbd5e1;
+            color: #64748b;
+            font-size: 0.875rem;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Ken Berger</h1>
+            <p class="title-sub">Engineering Executive & Technical Principal</p>
+        </header>
+
+        <main>
+            <!-- Narrative Section -->
+            <section class="section">
+                <h2>Summary</h2>
+                <div class="highlight-box">
+                    <p>
+                        Over 25 years of experience leading global engineering organizations, building scalable infrastructure, and driving technical architecture for industry leaders and high-growth ventures.
+                    </p>
+                </div>
+                <p>
+                    As Founder & Managing Partner at <strong>Lorem Labs</strong> (est. 2007), I partner with enterprise leadership, venture-backed startups, and premier institutional investors, including strategic advisory engagements for portfolio companies often introduced by VC firms like Union Square Ventures.
+                </p>
+                <p>
+                    My focus centers on balancing long-term architectural integrity with rapid business execution, guiding technical teams through frontier-grade challenges in <strong>AI infrastructure, distributed systems, and blockchain/Web3 protocol architecture</strong>.
+                </p>
+            </section>
+
+            <!-- Track Record / High-Profile Institutional Partnerships -->
+            <section class="section">
+                <h2>Select Track Record & Client History</h2>
+                <p style="text-align: center;">
+                    Direct experience advising and scaling core engineering systems for category-defining platforms and global financial institutions:
+                </p>
+                <div class="client-list">
+                    <!-- Coinbase (Official Blue) -->
+                    <div class="client-card">
+                        <svg class="company-logo" viewBox="0 0 24 24">
+                            <path fill="#0052FF" d="M12 24C18.6274 24 24 18.6274 24 12C24 5.37258 18.6274 0 12 0C5.37258 0 0 5.37258 0 12C0 18.6274 5.37258 24 12 24ZM8.8 8.8H15.2V15.2H8.8V8.8Z"/>
+                        </svg>
+                        <h3>Coinbase</h3>
+                        <p>Distributed Ledger & Web3 Infrastructure</p>
+                    </div>
+
+                    <!-- Twitter (Official Blue) -->
+                    <div class="client-card">
+                        <svg class="company-logo" viewBox="0 0 24 24">
+                            <path fill="#1DA1F2" d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.936 9.936 0 0024 4.59z"/>
+                        </svg>
+                        <h3>Twitter</h3>
+                        <p>Large-Scale Real-Time Systems</p>
+                    </div>
+
+                    <!-- Twilio (Official Red) -->
+                    <div class="client-card">
+                        <svg class="company-logo" viewBox="0 0 24 24">
+                            <path fill="#F22F46" d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm-2.8 15.6c-1.546 0-2.8-1.254-2.8-2.8s1.254-2.8 2.8-2.8 2.8 1.254 2.8 2.8-1.254 2.8-2.8 2.8zm0-7.2c-1.546 0-2.8-1.254-2.8-2.8S7.654 2.8 9.2 2.8s2.8 1.254 2.8 2.8-1.254 2.8-2.8-1.254 2.8-2.8 2.8zm5.6 7.2c-1.546 0-2.8-1.254-2.8-2.8s1.254-2.8 2.8-2.8 2.8 1.254 2.8 2.8-1.254 2.8-2.8 2.8zm0-7.2c-1.546 0-2.8-1.254-2.8-2.8S14.854 2.8 16.4 2.8s2.8 1.254 2.8 2.8-1.254 2.8-2.8 2.8z"/>
+                        </svg>
+                        <h3>Twilio</h3>
+                        <p>High-Throughput Communications Infrastructure</p>
+                    </div>
+
+                    <!-- Bank of America (Full Flag Emblem Unclipped) -->
+                    <div class="client-card">
+                        <div class="boa-crop">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/2/20/Bank_of_America_logo.svg" alt="Bank of America Flag Emblem" />
+                        </div>
+                        <h3>Bank of America</h3>
+                        <p>Enterprise Technical Transformation</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Core Domain Competencies -->
+            <section class="section">
+                <h2>Core Expertise & Architecture Focus</h2>
+                <div class="pills">
+                    <span class="pill">Distributed Systems Architecture</span>
+                    <span class="pill">AI & LLM Infrastructure</span>
+                    <span class="pill">Blockchain & Web3 Protocols</span>
+                    <span class="pill">Global Engineering Leadership (~50+ Engineers)</span>
+                    <span class="pill">Venture Capital & Portfolio Advisory</span>
+                    <span class="pill">Enterprise Technical Transformation</span>
+                </div>
+            </section>
+
+            <!-- Engagement Focus -->
+            <section class="section">
+                <h2>Target Engagements</h2>
+                <p>
+                    Available for full-time executive technical leadership (CEO, CTO, VP of Engineering), high-impact operating partner roles, and strategic technical board advisory partnerships.
+                </p>
+                
+                <div class="links">
+                    <a href="https://www.linkedin.com/in/kenberger/" class="btn" target="_blank" rel="noopener">LinkedIn Profile</a>
+                    <!-- Fully Obfuscated Email Link -->
+                    <button id="email-btn" class="btn">Get in Touch</button>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            &copy; Ken Berger. All rights reserved.
+        </footer>
+    </div>
+
+    <script>
+        // Base64 Decryption on Click
+        document.getElementById("email-btn").addEventListener("click", function(e) {
+            e.preventDefault();
+            // Encoded string for "mailto:linkedin@kenberger.com"
+            const encodedMail = "bWFpbHRvOmxpbmtlZGluQGtlbmJlcmdlci5jb20=";
+            window.location.href = atob(encodedMail);
+        });
+    </script>
+</body>
+</html>
